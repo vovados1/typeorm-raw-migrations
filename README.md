@@ -18,21 +18,21 @@ pnpm add typeorm-raw-migrations
 
 ```bash
 # Basic usage
-node_modules/typeorm-raw-migrations/cli.js run <path-to-migrations-directory>
+typeorm-raw-migrations run <path-to-migrations-directory>
 
 # Specify output directory
-node_modules/typeorm-raw-migrations/cli.js run <path-to-migrations-directory> -o <output-directory>
+typeorm-raw-migrations run <path-to-migrations-directory> -o <output-directory>
 
 # Extract only the UP migrations
-node_modules/typeorm-raw-migrations/cli.js run <path-to-migrations-directory> -u
+typeorm-raw-migrations run <path-to-migrations-directory> -u
 # or
-node_modules/typeorm-raw-migrations/cli.js run <path-to-migrations-directory> --onlyUp
+typeorm-raw-migrations run <path-to-migrations-directory> --onlyUp
 ```
 
 ### Revert the last migration
 
 ```bash
-node_modules/typeorm-raw-migrations/cli.js revert <path-to-sql-files-directory>
+typeorm-raw-migrations revert <path-to-sql-files-directory>
 ```
 
 ## Combine scripts with typeorm cli migration scripts
