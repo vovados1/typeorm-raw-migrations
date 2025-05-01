@@ -1,6 +1,6 @@
 {
   "name": "typeorm-raw-migrations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extract SQL files from TypeORM migrations",
   "main": "dist/cli.js",
   "bin": {
@@ -18,7 +18,8 @@
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "prepare": "husky"
   },
   "keywords": [
     "typeorm",
@@ -28,6 +29,10 @@
   ],
   "author": "Volodymyr Doskochynskyi <volodymyr@vovados.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vovados1/typeorm-raw-migrations"
+  },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.25.1",

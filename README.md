@@ -47,7 +47,3 @@ node_modules/typeorm-raw-migrations/cli.js revert <path-to-sql-files-directory>
   }
 }
 ```
-
-## License
-
-MIT
