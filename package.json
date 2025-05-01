@@ -1,6 +1,6 @@
 {
   "name": "typeorm-raw-migrations",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extract SQL files from TypeORM migrations",
   "main": "dist/cli.js",
   "bin": {
