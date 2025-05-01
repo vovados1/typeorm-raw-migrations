@@ -14,7 +14,7 @@ const compat = new FlatCompat({
 })
 
 export default tseslint.config(
-  { ignores: ["dist", "node_modules", "eslint.config.mjs"] },
+  { ignores: ["dist", "node_modules", "eslint.config.mjs", "__tests__/resources"] },
   {
     extends: [
       eslint.configs.recommended,
@@ -39,6 +39,7 @@ export default tseslint.config(
       "import/extensions": "off",
       "no-void": "off",
       "no-plusplus": "off",
+      "no-console": "off",
       "@typescript-eslint/class-methods-use-this": "off",
       "@stylistic/lines-between-class-members": "off",
       "no-cond-assign": "off",
