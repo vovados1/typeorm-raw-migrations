@@ -1,0 +1,1 @@
+CREATE TABLE "job" ("id" SERIAL NOT NULL, "name" character varying NOT NULL, CONSTRAINT "PK_98ab1c14ff8d1cf80d18703b92f" PRIMARY KEY ("id"));
