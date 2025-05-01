@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "start": "npx ts-node src/cli.ts",
-    "build": "npx tsc",
+    "build": "npx swc src -d dist --strip-leading-paths",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "test": "vitest run",
@@ -32,6 +32,8 @@
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.25.1",
     "@kesills/eslint-config-airbnb-typescript": "^20.0.0",
+    "@swc/cli": "^0.7.3",
+    "@swc/core": "^1.11.24",
     "@types/node": "^22.15.3",
     "acorn": "^8.14.1",
     "eslint": "^9.25.1",
